@@ -9,10 +9,3 @@ let interval = null;
 //event listeners
 
 //timer function
-function timer () {
-  seconds ++;
-
-  //format our time
-  let secs = seconds % 60;
-  let min = Math.floor(seconds / 60);
-}
